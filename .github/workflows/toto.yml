@@ -16,6 +16,6 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
       - name: Build docker
-        run: docker build -t ghcr.io/xaqq/my-test-image .
+        run: docker build -t ghcr.io/leosac/my-test-image2 .
       - name: Push docker
-        run: docker push ghcr.io/xaqq/my-test-image
+        run: docker push ghcr.io/leosac/my-test-image2
