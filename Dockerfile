@@ -1,3 +1,3 @@
 FROM debian
 
-apt-get install emacs-nox
+RUN apt-get install -y emacs-nox
